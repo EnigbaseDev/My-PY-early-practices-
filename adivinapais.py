@@ -1,20 +1,21 @@
 
+def VerificacionPais():
+    nuevo_pais = str(input('Ingrese un nombre valido:')).strip().lower()
+    return nuevo_pais
+
 pais = str(input('Ingrese el nombre de su pais:')).strip().lower()
 # El strip el para que si pone solo espacios, se borren y lo lea asi ("")
-print(pais)
 
-if pais == '':
-    print('No ingresaste un pais valido')
-# Cuando vea ciclos cierre aqui, si esta se cumple.
+while pais == '':
+    pais = VerificacionPais()  # aquí actualizamos el valor
 
-else:  
-    if pais == "colombia":
-        print('Buena eleccion, Colombia es un gran país.')
-
+else:
+    if pais == 'colombia':
+        print('Buena eleccion, Colombia es un gran país.')   
     elif pais == 'argentina':
-        print('Interesante elección, Che')
+        print('Interesante elección, Che')     
     elif pais == 'brasil':
-        print('Interesante elección, Monkey')
+        print('Interesante elección, Monkey')  
     elif pais == 'mexico':
         print('Interesante elección, one tak?')   
     else:
