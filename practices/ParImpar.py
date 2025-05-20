@@ -1,8 +1,8 @@
 
-numero=int(input('Ingrese su numero:'))
+numero = int(input('Ingrese su numero:'))
 
 
-if numero%2 == 0:
+if numero % 2 == 0:
     print('Su numero es Par')
 
 else:
