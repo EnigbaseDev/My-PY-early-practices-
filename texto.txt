@@ -1,0 +1,2 @@
+Hola, este es un texto creado desde Python.
+Segunda línea del tecto.
