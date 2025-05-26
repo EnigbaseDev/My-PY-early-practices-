@@ -11,6 +11,6 @@ def es_palindromo(frase):
 
 texto = input("Escribe una frase: ")
 if es_palindromo(texto):
-    print("¡Es un palíndromo!")
+    print("¡Es un palíndromo :D!")
 else:
-    print("No es un palíndromo.")
+    print("No es un palíndromo :(")

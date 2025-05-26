@@ -1,3 +1,5 @@
+
+
 password = input("Ingresa tu contraseña: ")
 
 simbolos = "!@#$%^&*()_-+=<>?/\\|{}[]"
